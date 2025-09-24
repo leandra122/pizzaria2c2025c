@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 import axios from 'axios'
 
 const Produtos = () => {
-    // Estado ára armazenar a lista de pizzas
+    // Estado área armazenar a lista de pizzas
     const [pizzas, setPizzas] = useState(['Calabresa', 'Marguerita', 'Quatro Queijos'])
    
     // Consumir rota com lista de produtos
